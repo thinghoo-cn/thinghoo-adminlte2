@@ -7,6 +7,7 @@ authors = ["svtter <svtter@qq.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^3.2.11"
+django-adminlte2 = "^0.4.3"
 
 [tool.poetry.dev-dependencies]
 twine = "^4.0.1"

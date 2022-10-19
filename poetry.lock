@@ -143,6 +143,22 @@ url = "https://nexus.beijing-epoch.com/repository/pypi-thinghoo-group/simple"
 reference = "thinghoo"
 
 [[package]]
+name = "django-adminlte2"
+version = "0.4.3"
+description = "Admin LTE templates, admin theme, and template tags for Django"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+django = "*"
+
+[package.source]
+type = "legacy"
+url = "https://nexus.beijing-epoch.com/repository/pypi-thinghoo-group/simple"
+reference = "thinghoo"
+
+[[package]]
 name = "docutils"
 version = "0.19"
 description = "Docutils -- Python Documentation Utilities"
@@ -543,7 +559,7 @@ reference = "thinghoo"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "1630e22512e630d505eacd4fc5fc1f4e5c713257c9bed06766b69828111fe984"
+content-hash = "7d82a45f7d59cd0a2e41a0c3a4694d3e6fe491ed96f595ea7c7bd82c3560fe6e"
 
 [metadata.files]
 asgiref = [
@@ -663,6 +679,10 @@ cryptography = [
 django = [
     {file = "Django-3.2.16-py3-none-any.whl", hash = "sha256:18ba8efa36b69cfcd4b670d0fa187c6fe7506596f0ababe580e16909bcdec121"},
     {file = "Django-3.2.16.tar.gz", hash = "sha256:3adc285124244724a394fa9b9839cc8cd116faf7d159554c43ecdaa8cdf0b94d"},
+]
+django-adminlte2 = [
+    {file = "django-adminlte2-0.4.3.tar.gz", hash = "sha256:60c1c049ce66081c1a67669686ffbde2f530544ddfe9e681395197973050f614"},
+    {file = "django_adminlte2-0.4.3-py3-none-any.whl", hash = "sha256:327fc90bae2b4a3b599bc60018071bedfd87dfc724b1d2d62b3c112b7adfdc11"},
 ]
 docutils = [
     {file = "docutils-0.19-py3-none-any.whl", hash = "sha256:5e1de4d849fee02c63b040a4a3fd567f4ab104defd8a5511fbbc24a8a017efbc"},
