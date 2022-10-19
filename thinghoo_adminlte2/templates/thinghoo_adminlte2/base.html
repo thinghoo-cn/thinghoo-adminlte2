@@ -1,0 +1,37 @@
+{% extends 'adminlte/base.html' %}
+{% load static %}
+
+{% block title %}{% endblock %}
+{% block content %}
+{% comment %} <div class="container" style="width: 1200px; box-shadow: 5px 5px 20px #aaa; padding: 20px 20px;"> {% endcomment %}
+<div class="container">
+    {% block content-center %}
+    Home Page
+    {% endblock content-center %}
+</div>
+{% endblock content %}
+
+{% block footer %}
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>CDserver</strong> by <a href="http://jgthms.com">Thinghoo</a>. The source code is not opened. Build nicely.
+        </p>
+        <p>
+          <a class="icon" href="https://e.gitee.com/beijing_epoch/repos/beijing_epoch/cdserver/sources">
+            <i class="fab fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+{% endblock footer %}
+
+{% block extra_javascript %}
+<script src="https://unpkg.com/vue@3"></script>
+{% endblock extra_javascript %}
+
+{% block extra_foot %}
+  <script src="https://unpkg.com/htmx.org@1.8.0"></script>
+{% endblock %}
