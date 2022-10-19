@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "thinghoo-adminlte2"
 version = "0.1.1"
-description = ""
+description = "A adminlte2 template with thinghoo plugin"
 authors = ["svtter <svtter@qq.com>"]
 
 [tool.poetry.dependencies]
