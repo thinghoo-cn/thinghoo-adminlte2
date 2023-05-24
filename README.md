@@ -17,3 +17,8 @@ In your own template, use this line.
 ```jinja
 {% extends 'thinghoo-adminlte2/base.html' %}
 ```
+
+
+## LICENSE
+
+MIT
